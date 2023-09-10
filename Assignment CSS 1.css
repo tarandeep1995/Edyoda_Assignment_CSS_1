@@ -1,0 +1,147 @@
+      /* Header Styling */
+
+
+      .logo_div{
+    
+        display: inline-block; 
+        display: flex;
+        align-items: center;
+       
+    }
+    .menu_div{
+       
+        display: flex ;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Navbar_button_div{
+        
+        display: inline-block;
+        border-radius: 20px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .Navbar_button{
+        font-size: 12px;
+        font-weight: bolder;
+        border-radius: 3em;
+        padding: 1.75em 3em;
+        color: #5243c0;
+        border: none;
+        background-color: pink;
+        margin: 0;
+    }
+    .Navbar_button_div:hover{
+        transform:scale(115%);
+    }
+    .logo_div img{
+        width: 150px;
+    }
+    .menu_div ul{
+        padding: 0;
+        display: flex;
+    }
+    
+    .menu_div ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 50px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    ul>li{
+        font-size: 5px;
+    }
+    ul>li:hover{
+        text-decoration: underline navy;
+    }
+    
+    /* Header Styling */
+    
+    
+    /* Body Div */
+    
+    section{
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    /* Right Div */
+    
+    .Right_div{
+        margin-top:50px ;
+        display: inline-block;
+        width: 40%;
+        height: 100px;
+       }
+    .Right_div img{
+        height: 600px;
+        width: 600px;
+    }
+    /* .Right_div img:hover{
+        transform: scale(105%);
+    } */
+    
+    /* Right Div */
+    
+    /* Left Div */
+    .Left_Div{
+        margin-left: 250px;
+       display: inline-block;
+       width: 40%;
+       }
+    .Left_Div_Button{
+        font-size: 12px;
+        border-radius: 4em;
+        padding: 1em 5em;
+        color: white;
+        border: none;
+        background-color: #5243c0;
+    }
+    .Left_Div_Button:hover{
+        transform: scale(105%);
+    }
+    .arrow_down{
+        margin-left: 60px;
+        border:1px solid whitesmoke;
+        border-radius: 25px;
+        
+    }
+    .arrow_down:hover{
+        transform: scale(115%);
+    }
+    .Icon_img{
+        width: 30px;
+        height: 30px;
+    }
+    .small_button{
+        height: 10px;
+        width: 20px;
+        border-radius:5px;
+        border: none;
+        margin-right: 10px;
+    }
+    
+    .list_items{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: inline-flex;
+    }
+    
+    .list_items:hover{
+        transform: scale(105%);
+        background-color: white;
+    }
+    /* Left Div */
+    
+    /* Body Div */
